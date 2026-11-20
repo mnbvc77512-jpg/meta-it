@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>META IT ACADEMY | Andijon — 2026-yil Rasmiy Qabul Portali</title>
+  <meta name="description" content="META IT Akademiyasi Andijon filiali rasmiy qabul portali. Zamonaviy IT, Robototexnika, Dasturlash kurslari va 100% grant imkoniyati.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Google 4-Color Accent Top Strip -->
+  <div class="google-color-bar"></div>
+
+  <!-- Interactive Particle Background Canvas -->
+  <canvas id="particleCanvas" class="particle-canvas"></canvas>
+
+  <!-- Background Glow & Grid Effect -->
+  <div class="bg-glow bg-glow-blue-1"></div>
+  <div class="bg-glow bg-glow-white-2"></div>
+  <div class="bg-glow bg-glow-blue-3"></div>
+  <div class="bg-grid"></div>
+
+  <!-- Top Notification Bar with Location & Direct Social Links -->
+  <div class="top-announcement">
+    <div class="container top-bar-content">
+      <div class="top-left-info">
+        <span class="badge-pulse">🚀 2026 ANDIJON QABUL</span>
+        <span class="location-chip">📍 Andijon sh., Leninskiy ko'chasi</span>
+        <span class="price-chip">💰 Darslar oylik to'lovi: <strong>500 000 UZS / oy</strong></span>
+      </div>
+      
+      <div class="top-social-quick">
+        <a href="https://t.me/metait_academy" target="_blank" rel="noopener noreferrer" class="social-quick-link telegram" title="Telegram kanalimiz">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.52 2.77-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .37z"/>
+          </svg>
+          <span>Telegram</span>
+        </a>
+        <a href="https://www.instagram.com/metait.academy" target="_blank" rel="noopener noreferrer" class="social-quick-link instagram" title="Instagram sahifamiz">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+          <span>Instagram</span>
+        </a>
+        <a href="https://www.youtube.com/@MetaITAcademy" target="_blank" rel="noopener noreferrer" class="social-quick-link youtube" title="YouTube kanalimiz">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+            <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+          </svg>
+          <span>YouTube</span>
+        </a>
+      </div>
+
+      <a href="#qabul" class="top-link">Arizani to'ldirish &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Navigation Header -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <!-- Animated Video / Canvas Motion Logo (Blue & White Mixed) -->
+      <a href="#" class="brand-logo" title="META IT ACADEMY">
+        <div class="video-logo-wrapper">
+          <canvas id="navLogoCanvas" width="46" height="46" class="nav-logo-canvas"></canvas>
+          <span class="video-indicator-badge">META IT</span>
+        </div>
+        <div class="logo-text">
+          <div class="brand-name">
+            <span class="brand-blue">META</span>
+            <span class="brand-white">IT</span>
+          </div>
+          <span class="brand-tag">ANDIJON &bull; 2026</span>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="nav-links" id="navLinks">
+        <a href="#hero" class="nav-link active">Bosh sahifa</a>
+        <a href="#kurslar" class="nav-link">Kurslar & Narxlar</a>
+        <a href="#jamoa" class="nav-link">Bizning Jamoa</a>
+        <a href="#test" class="nav-link">IT Test</a>
+        <a href="#video-tour" class="nav-link">Video Tur</a>
+        <a href="#lokatsiya" class="nav-link">Manzil & Xarita</a>
+        <a href="#tekshirish" class="nav-link">Ariza holati</a>
+      </nav>
+
+      <!-- Nav Actions & Social Links -->
+      <div class="nav-actions">
+        <div class="nav-social-icons">
+          <a href="https://t.me/metait_academy" target="_blank" rel="noopener noreferrer" class="social-circle-btn telegram" title="Telegram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.52 2.77-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .37z"/>
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/metait.academy" target="_blank" rel="noopener noreferrer" class="social-circle-btn instagram" title="Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="https://www.youtube.com/@MetaITAcademy" target="_blank" rel="noopener noreferrer" class="social-circle-btn youtube" title="YouTube">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+              <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+            </svg>
+          </a>
+        </div>
+
+        <button class="btn btn-outline btn-sm" id="adminToggleBtn" title="Qabul komissiyasi boshqaruvi">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="9" y1="3" x2="9" y2="21"></line>
+          </svg>
+          <span>Qabul Paneli</span>
+        </button>
+
+        <a href="#qabul" class="btn btn-primary btn-sm btn-glow-blue">
+          <span>Ariza topshirish</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menyu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section with Motion Video Logo Card -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <!-- Google Colors Dots -->
+          <div class="google-dots">
+            <span class="g-dot g-blue"></span>
+            <span class="g-dot g-red"></span>
+            <span class="g-dot g-yellow"></span>
+            <span class="g-dot g-green"></span>
+          </div>
+          <span class="badge-text">ANDIJON SHAHRI • LENINSKIY KO'CHASI</span>
+        </div>
+        
+        <h1 class="hero-title">
+          Kelajakni <span class="gradient-blue-white">META IT</span> bilan birga yarating!
+        </h1>
+        
+        <p class="hero-desc">
+          Andijon viloyatidagi eng ilg'or innovatsion IT va Robototexnika akademiyasi! 
+          Barcha darslar narxi hamyonbop — <strong>500 000 UZS / oy</strong>. 
+          Kuchli mentorlar nazoratida ta'lim oling va <strong>100% grant</strong> sohibiga aylaning!
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="hero-cta-group">
+          <a href="#qabul" class="btn btn-primary btn-lg shadow-pulse-blue">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="12" y1="18" x2="12" y2="12"></line>
+              <line x1="9" y1="15" x2="15" y2="15"></line>
+            </svg>
+            <span>Qabulga ariza topshirish</span>
+          </a>
+          
+          <a href="#kurslar" class="btn btn-secondary btn-lg btn-white-border">
+            <span>Darslar & Narxlar (500 000 UZS)</span>
+          </a>
+
+          <a href="#video-tour" class="btn btn-video-play">
+            <div class="play-icon-pulse">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+            </div>
+            <span>META IT Video</span>
+          </a>
+        </div>
+
+        <!-- Social Media Fast Access in Hero -->
+        <div class="hero-social-strip">
+          <span class="social-strip-label">Rasmiy kanallarimiz & Manzil:</span>
+          <div class="social-strip-icons">
+            <a href="https://t.me/metait_academy" target="_blank" rel="noopener noreferrer" class="social-tag telegram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.52 2.77-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .37z"/>
+              </svg>
+              <span>Telegram (@metait_academy)</span>
+            </a>
+            <a href="https://www.instagram.com/metait.academy" target="_blank" rel="noopener noreferrer" class="social-tag instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+              <span>Instagram (@metait.academy)</span>
+            </a>
+            <a href="https://www.youtube.com/@MetaITAcademy" target="_blank" rel="noopener noreferrer" class="social-tag youtube">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+              </svg>
+              <span>YouTube Video</span>
+            </a>
+            <a href="#lokatsiya" class="social-tag map-tag">
+              <span>📍 Andijon, Leninskiy ko'chasi</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Stats -->
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-num" id="statGrads">1,500+</span>
+            <span class="stat-label">Muvaffaqiyatli bitiruvchilar</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num" id="statPrice">500 ming</span>
+            <span class="stat-label">Oylik to'lov (UZS / oy)</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num text-cyan">Andijon</span>
+            <span class="stat-label">Leninskiy ko'chasi</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num text-green">100%</span>
+            <span class="stat-label">Grant imkoniyati</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual: 3D Holographic Video-Logo with META IT Branding -->
+      <div class="hero-visual">
+        <div class="hero-card glass-panel-blue">
+          <!-- Terminal Header -->
+          <div class="card-header-bar">
+            <span class="circle red"></span>
+            <span class="circle yellow"></span>
+            <span class="circle green"></span>
+            <span class="terminal-title">meta_it_andijon_stream.sh</span>
+            <span class="google-badge-pill">GOOGLE CLOUD PARTNER</span>
+          </div>
+
+          <!-- Video-Logo Interactive Display with META IT Advertising Stream -->
+          <div class="video-logo-hero-container">
+            <canvas id="heroLogoVideoCanvas" width="340" height="200" class="hero-logo-canvas"></canvas>
+            <div class="video-overlay-info">
+              <span class="holo-tag">● META IT RASMIY REKLAMASI</span>
+              <span class="holo-sub">ANDIJON &bull; LENINSKIY KO'CHASI</span>
+            </div>
+          </div>
+
+          <div class="terminal-body">
+            <div class="code-line"><span class="cmd-user">candidate@meta-it-andijon</span>:<span class="cmd-path">~</span>$ ./check-admission</div>
+            <div class="code-output text-cyan">&gt; [INFO] Andijon filiali qabul komissiyasi faol.</div>
+            <div class="code-output text-white">&gt; Manzil: Andijon shahri, Leninskiy ko'chasi, 12-uy</div>
+            <div class="code-output text-yellow">&gt; Barcha darslar narxi: 500 000 UZS / oy</div>
+            <div class="code-output text-green">&gt; [SUCCESS] Qabul qilingan arizalar: <span id="heroLiveAppCount">1,482</span> ta</div>
+            
+            <div class="terminal-interactive-box">
+              <div class="status-badge live">● Qabul davom etmoqda (Andijon)</div>
+              <p class="deadline-text">Dastlabki imtiyozli guruhlar uchun qolgan vaqt:</p>
+              <div class="countdown-timer" id="countdownTimer">
+                <div class="time-block"><span id="days">08</span><small>Kun</small></div>
+                <div class="time-colon">:</div>
+                <div class="time-block"><span id="hours">14</span><small>Soat</small></div>
+                <div class="time-colon">:</div>
+                <div class="time-block"><span id="minutes">32</span><small>Daqiqa</small></div>
+                <div class="time-colon">:</div>
+                <div class="time-block"><span id="seconds">45</span><small>Soniya</small></div>
+              </div>
+            </div>
+
+            <div class="terminal-tags">
+              <span class="tag">#Robototexnika_Arduino</span>
+              <span class="tag">#Frontend_React</span>
+              <span class="tag">#Backend_Python</span>
+              <span class="tag">#AI_DataScience</span>
+              <span class="tag">#CyberSecurity</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Tour / Akademiya Video Taqdimoti (with META IT) -->
+  <section class="section section-video-showcase" id="video-tour">
+    <div class="container">
+      <div class="section-head text-center">
+        <span class="section-subtitle google-styled-subtitle">META IT RASMIY VIDEO REKLAMASI</span>
+        <h2 class="section-title">META IT Akademiya Reklamasi & Jonli Taqdimot</h2>
+        <p class="section-desc">Andijon filiali, Robototexnika laboratoriyasi, 500 000 UZS oylik to'lov va Axroriddin Bakhodirov boshchiligidagi eng kuchli jamoaning rasmiy videoroligi.</p>
+      </div>
+
+      <div class="video-player-wrapper glass-panel-blue">
+        <div class="video-container" id="videoContainer">
+          <canvas id="campusVideoCanvas" width="960" height="480" class="campus-canvas"></canvas>
+          <div class="video-overlay-controls">
+            <button class="video-play-btn" id="playCampusVideoBtn" title="Videoni ijro etish / to'xtatish">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" id="playIcon">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+            </button>
+            <div class="video-meta-overlay">
+              <div class="badge-white-blue">
+                <span class="g-color-text">META IT</span> &bull; RASMIY REKLAMA VIDEO ROLIGI
+              </div>
+              <h3>META IT Andijon &bull; Zamonaviy Dasturlash & Robototexnika Markazi</h3>
+              <p>Oylik to'lov: 500 000 UZS (Kiberxavfsizlik 480 000 UZS) &bull; Leninskiy ko'chasi &bull; Axroriddin Bakhodirov jamoasi</p>
+            </div>
+            <div class="video-status-bar">
+              <div class="v-progress"><div class="v-fill" id="videoProgressFill"></div></div>
+              <div class="v-controls-row">
+                <span id="videoCurrentTime">00:15 / 02:40</span>
+                <div class="v-right-buttons">
+                  <a href="https://www.youtube.com/@MetaITAcademy" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-white-border">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                    </svg>
+                    <span>YouTube'da ko'rish</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kurslar / Yo'nalishlar & Narxlar (500 000 UZS / oy) Section -->
+  <section class="section" id="kurslar">
+    <div class="container">
+      <div class="section-head text-center">
+        <span class="section-subtitle google-styled-subtitle">DARSLAR VA NARXLAR</span>
+        <h2 class="section-title">Barcha IT & Robototexnika Kurslari</h2>
+        <p class="section-desc">Barcha yo'nalishlar uchun belgilangan narx — <strong>oylik 500 000 UZS</strong>! Grant orqali to'liq bepul o'qish ham mumkin.</p>
+        
+        <!-- Category Filter -->
+        <div class="filter-tabs" id="courseFilterTabs">
+          <button class="filter-tab active" data-filter="all">Barchasi (8)</button>
+          <button class="filter-tab" data-filter="robotics">🤖 Robototexnika (1)</button>
+          <button class="filter-tab" data-filter="dev">💻 Dasturlash (4)</button>
+          <button class="filter-tab" data-filter="data">🧠 AI & Data (1)</button>
+          <button class="filter-tab" data-filter="security">🛡️ Kiberxavfsizlik (1)</button>
+          <button class="filter-tab" data-filter="design">🎨 UI/UX Dizayn (1)</button>
+        </div>
+      </div>
+
+      <div class="courses-grid" id="coursesGrid">
+        <!-- Rendered via JS with 500 000 UZS price tags -->
+      </div>
+    </div>
+  </section>
+
+  <!-- META IT ENG KUCHLI JAMOYASI (TEACHERS & TEAM SECTION) -->
+  <section class="section bg-secondary-dark" id="jamoa">
+    <div class="container">
+      <div class="section-head text-center">
+        <div class="google-badge-inline">
+          <span class="g-dot g-blue"></span>
+          <span class="g-dot g-red"></span>
+          <span class="g-dot g-yellow"></span>
+          <span class="g-dot g-green"></span>
+          <span>XALQARO DARAJADAGI MENTORLAR</span>
+        </div>
+        <h2 class="section-title">META IT Eng Kuchli Jamoasi</h2>
+        <p class="section-desc">Bizning tajribali ustozlarimiz yetakchi IT kompaniyalarda va xalqaro loyihalarda faoliyat olib borgan amaliyotchi mutaxassislardir.</p>
+      </div>
+
+      <div class="team-grid">
+        <!-- Ustoz 1: Axroriddin Bakhodirov (Founder & Lead) -->
+        <div class="team-card glass-panel-blue team-lead-card">
+          <div class="team-avatar-box">
+            <div class="team-avatar-img avatar-axror">
+              <span>AB</span>
+            </div>
+            <span class="team-tag-badge google-accent-border">FOUNDER & CEO</span>
+          </div>
+          <div class="team-info">
+            <h3 class="team-name">Axroriddin Bakhodirov</h3>
+            <span class="team-role text-cyan">Akademiya Asoschisi & Bosh Texnik Direktor</span>
+            <p class="team-bio">META IT akademiyasi asoschisi. 8 yildan ortiq dasturiy ta'minot arxitekturasi va IT ta'lim tajribasi. Google Developer hamjamiyati faoli va IT startup loyihalar muallifi.</p>
+            <div class="team-skills">
+              <span class="skill-pill">System Architecture</span>
+              <span class="skill-pill">Full-Stack Dev</span>
+              <span class="skill-pill">Cloud & AI</span>
+              <span class="skill-pill">Robotics Mentor</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ustoz 2: Boburmirzo Ibrohimov (Python Backend) -->
+        <div class="team-card glass-panel-blue">
+          <div class="team-avatar-box">
+            <div class="team-avatar-img avatar-bobur">
+              <span>BI</span>
+            </div>
+            <span class="team-tag-badge">SENIOR BACKEND</span>
+          </div>
+          <div class="team-info">
+            <h3 class="team-name">Boburmirzo Ibrohimov</h3>
+            <span class="team-role text-cyan">Katta Backend Ustoz (Python & Django)</span>
+            <p class="team-bio">Uzum Bank va TBC Bank fintech mikroxizmatlarida 6 yillik amaliy tajribaga ega Senior Python Software Engineer.</p>
+            <div class="team-skills">
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">Django</span>
+              <span class="skill-pill">PostgreSQL</span>
+              <span class="skill-pill">Docker</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ustoz 3: Nodirbek Yo'ldoshev (Frontend) -->
+        <div class="team-card glass-panel-blue">
+          <div class="team-avatar-box">
+            <div class="team-avatar-img avatar-nodir">
+              <span>NY</span>
+            </div>
+            <span class="team-tag-badge">LEAD FRONTEND</span>
+          </div>
+          <div class="team-info">
+            <h3 class="team-name">Nodirbek Yo'ldoshev</h3>
+            <span class="team-role text-cyan">Bosh Frontend Mentor (React & Next.js)</span>
+            <p class="team-bio">EPAM Systems loyihalarida ishlagan. 40+ yirik zamonaviy veb-portal va SPA platformalarni ishlab chiqqan.</p>
+            <div class="team-skills">
+              <span class="skill-pill">React</span>
+              <span class="skill-pill">Next.js</span>
+              <span class="skill-pill">TypeScript</span>
+              <span class="skill-pill">Tailwind</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ustoz 4: Shoxruxmirzo G'aniyev (Robototexnika) -->
+        <div class="team-card glass-panel-blue">
+          <div class="team-avatar-box">
+            <div class="team-avatar-img avatar-shox">
+              <span>SG</span>
+            </div>
+            <span class="team-tag-badge google-accent-border">ROBOTICS LEAD</span>
+          </div>
+          <div class="team-info">
+            <h3 class="team-name">Shoxruxmirzo G'aniyev</h3>
+            <span class="team-role text-cyan">Robototexnika & Arduino Bosh Muhandisi</span>
+            <p class="team-bio">Xalqaro Robofest sovrindori. Arduino, aqlli uy tizimlari (Smart Home) va avtonom dronlar loyihalari rahbari.</p>
+            <div class="team-skills">
+              <span class="skill-pill">Arduino C++</span>
+              <span class="skill-pill">ESP32</span>
+              <span class="skill-pill">IoT</span>
+              <span class="skill-pill">Robotics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ustoz 5: Malika Zokirova (AI & Data) -->
+        <div class="team-card glass-panel-blue">
+          <div class="team-avatar-box">
+            <div class="team-avatar-img avatar-malika">
+              <span>MZ</span>
+            </div>
+            <span class="team-tag-badge">AI SCIENTIST</span>
+          </div>
+          <div class="team-info">
+            <h3 class="team-name">Malika Zokirova</h3>
+            <span class="team-role text-cyan">Sun'iy Intellekt & Data Science Ustoz</span>
+            <p class="team-bio">Mashinali o'rganish va neyron tarmoqlar bo'yicha ilmiy tadqiqotchi. Katta ma'lumotlar tahlili va LLM integratsiyasi bo'yicha mutaxassis.</p>
+            <div class="team-skills">
+              <span class="skill-pill">Machine Learning</span>
+              <span class="skill-pill">PyTorch</span>
+              <span class="skill-pill">Pandas</span>
+              <span class="skill-pill">NLP</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ustoz 6: Diyorbek Qobilov (Cybersecurity) -->
+        <div class="team-card glass-panel-blue">
+          <div class="team-avatar-box">
+            <div class="team-avatar-img avatar-diyor">
+              <span>DQ</span>
+            </div>
+            <span class="team-tag-badge">SECURITY LEAD</span>
+          </div>
+          <div class="team-info">
+            <h3 class="team-name">Diyorbek Qobilov</h3>
+            <span class="team-role text-cyan">Kiberxavfsizlik & Ethical Hacking Eksperti</span>
+            <p class="team-bio">Xalqaro CEH (Certified Ethical Hacker) sertifikati egasi. Bank va davlat tizimlari penetratsion test auditi mutaxassisi.</p>
+            <div class="team-skills">
+              <span class="skill-pill">Penetration Testing</span>
+              <span class="skill-pill">Kali Linux</span>
+              <span class="skill-pill">SOC</span>
+              <span class="skill-pill">OWASP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOKATSIYA: ANDIJON VILOYATI, LENINSKIY KO'CHASI (INTERAKTIV XARITA) -->
+  <section class="section" id="lokatsiya">
+    <div class="container">
+      <div class="section-head text-center">
+        <span class="section-subtitle google-styled-subtitle">MANZIL VA LOKATSIYA</span>
+        <h2 class="section-title">Andijon Filiali & Xaritadagi Manzil</h2>
+        <p class="section-desc">Bizning akademiya Andijon shahrining markazida — Leninskiy ko'chasida qulay joylashgan.</p>
+      </div>
+
+      <div class="location-wrapper glass-panel-blue">
+        <div class="location-grid">
+          <!-- Text Details -->
+          <div class="location-details-col">
+            <div class="location-badge">
+              <span class="dot-live"></span>
+              <span>RASMIY AKADEMIYA BARKAROR JOYLASHUVI</span>
+            </div>
+            
+            <h3 class="location-main-title">META IT ACADEMY — ANDIJON</h3>
+            
+            <div class="location-info-list">
+              <div class="loc-item">
+                <div class="loc-icon">📍</div>
+                <div>
+                  <strong>Viloyat & Shahar:</strong>
+                  <p>Andijon viloyati, Andijon shahri</p>
+                </div>
+              </div>
+
+              <div class="loc-item">
+                <div class="loc-icon">🏢</div>
+                <div>
+                  <strong>Ko'cha va uy:</strong>
+                  <p class="highlight-cyan font-bold">Leninskiy ko'chasi (Bobur shoh ko'chasi chorrahasi), 12-uy</p>
+                </div>
+              </div>
+
+              <div class="loc-item">
+                <div class="loc-icon">🎯</div>
+                <div>
+                  <strong>Mo'ljal:</strong>
+                  <p>Markaziy Bobur maydoni yaqinida, "Oltin Vodiy" binosi ro'parasida</p>
+                </div>
+              </div>
+
+              <div class="loc-item">
+                <div class="loc-icon">⏰</div>
+                <div>
+                  <strong>Ish vaqti:</strong>
+                  <p>Dushanba &ndash; Shanba: 08:30 &ndash; 20:30 (Yakshanba: Ochiq eshiklar kuni)</p>
+                </div>
+              </div>
+
+              <div class="loc-item">
+                <div class="loc-icon">📞</div>
+                <div>
+                  <strong>Aloqa telefonlari:</strong>
+                  <p><a href="tel:+998742203344" class="contact-link">+998 (74) 220-33-44</a> / <a href="tel:+998901234567" class="contact-link">+998 (90) 123-45-67</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="location-action-btns">
+              <a href="https://maps.google.com/?q=Andijan,+Uzbekistan" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-glow-blue">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>Google Xaritada Ochish</span>
+              </a>
+              <a href="https://yandex.uz/maps/?text=Andijon" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                <span>Yandex Xaritada Ochish</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Embedded Map Visual Card -->
+          <div class="location-map-col">
+            <div class="map-frame-box">
+              <!-- Live Google Maps Embed for Andijan -->
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96850.51921382103!2d72.2858368!3d40.7820544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bc90089e173ffb%3A0x67bf285f2659e45!2sAndijan%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s" 
+                class="google-map-iframe"
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+                title="META IT Andijon Lokatsiyasi Xaritada">
+              </iframe>
+              <div class="map-badge-overlay">
+                <div class="g-dot-live"></div>
+                <span>META IT ACADEMY &bull; ANDIJON, LENINSKIY KO'CHASI</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Entrance Test Section -->
+  <section class="section bg-secondary-dark" id="test">
+    <div class="container">
+      <div class="quiz-wrapper glass-panel-blue">
+        <div class="quiz-intro" id="quizIntro">
+          <div class="quiz-badge">ONLAYN IT & GRANT TESTI</div>
+          <h2>Qaysi IT yoki Robototexnika kursi sizga mos?</h2>
+          <p>Mantiqiy fikrlash va qobiliyatingizni 5 ta interaktiv savol orqali tekshiring. 
+          Natijangizga qarab mos yo'nalish va <strong>100% gacha ta'lim granti</strong> foizingizni hisoblab beramiz!</p>
+          <button class="btn btn-primary btn-lg btn-glow-blue" id="startQuizBtn">
+            <span>Testni boshlash (5 savol)</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </button>
+        </div>
+
+        <div class="quiz-container hidden" id="quizContainer">
+          <div class="quiz-header">
+            <div class="quiz-progress-info">
+              <span id="quizStepText">Savol: 1 / 5</span>
+              <span id="quizScoreText" class="badge-mini">Ball: 0</span>
+            </div>
+            <div class="quiz-progress-bar">
+              <div class="quiz-progress-fill" id="quizProgressFill"></div>
+            </div>
+          </div>
+
+          <div class="quiz-body">
+            <h3 class="quiz-question" id="quizQuestion">Savol yuklanmoqda...</h3>
+            <div class="quiz-options" id="quizOptions"></div>
+          </div>
+        </div>
+
+        <div class="quiz-result hidden" id="quizResult">
+          <div class="result-badge">TEST YAKUNLANDI</div>
+          <h2 id="resultTitle">Ajoyib natija!</h2>
+          <div class="result-score-circle">
+            <span id="resultScore">0</span>
+            <small>/ 100 ball</small>
+          </div>
+          <p id="resultDesc">Sizning mantiqiy ko'rsatkichingiz yaxshi.</p>
+          
+          <div class="recommendation-card" id="recommendationCard">
+            <h4>Tavsiya etiladigan yo'nalish: <span id="recCourseName" class="highlight-blue">Robototexnika & Dasturlash</span></h4>
+            <p id="recGrantText">Siz <strong>50% ta'lim granti</strong> olish imkoniyatiga egasiz!</p>
+          </div>
+
+          <div class="quiz-result-actions">
+            <button class="btn btn-primary btn-lg btn-glow-blue" id="applyWithTestResultBtn">Ushbu natija bilan ariza topshirish</button>
+            <button class="btn btn-secondary" id="restartQuizBtn">Qayta topshirish</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ASOSIY QABUL ARIZA FORMASI -->
+  <section class="section application-section" id="qabul">
+    <div class="container">
+      <div class="application-wrapper glass-panel-blue">
+        <div class="form-header text-center">
+          <div class="form-badge">ANDIJON &bull; 2026 RASMIY QABUL FORMASI</div>
+          <h2 class="form-title">META IT Akademiyasiga O'qishga Ariza Topshiring</h2>
+          <p class="form-subtitle">Barcha kurslar uchun belgilangan narx — <strong>oylik 500 000 UZS</strong>. Grant orqali to'liq bepul o'qish ham mumkin. Ariza topshiring va 24 soat ichida suhbatga taklif oling.</p>
+        </div>
+
+        <form id="admissionForm" class="admission-form" novalidate>
+          <div class="form-grid">
+            <!-- Ism va Familiya -->
+            <div class="form-group">
+              <label for="fullName">To'liq ism va familiyangiz <span class="required">*</span></label>
+              <div class="input-wrapper">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+                <input type="text" id="fullName" name="fullName" placeholder="Masalan: Axroriddin Rahimov" required>
+              </div>
+              <span class="field-error" id="fullNameError"></span>
+            </div>
+
+            <!-- Telefon raqam -->
+            <div class="form-group">
+              <label for="phone">Telefon raqamingiz <span class="required">*</span></label>
+              <div class="input-wrapper">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                <input type="tel" id="phone" name="phone" placeholder="+998 (__) ___-__-__" required>
+              </div>
+              <span class="field-error" id="phoneError"></span>
+            </div>
+
+            <!-- Tug'ilgan sana -->
+            <div class="form-group">
+              <label for="birthDate">Tug'ilgan sana <span class="required">*</span></label>
+              <div class="input-wrapper">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                <input type="date" id="birthDate" name="birthDate" required>
+              </div>
+              <span class="field-error" id="birthDateError"></span>
+            </div>
+
+            <!-- Viloyat / Shahar (Andijon birinchi) -->
+            <div class="form-group">
+              <label for="region">Hudud (Viloyat / Shahar) <span class="required">*</span></label>
+              <div class="input-wrapper">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <select id="region" name="region" required>
+                  <option value="Andijon viloyati (Leninskiy ko'chasi)" selected>Andijon viloyati (Leninskiy ko'chasi)</option>
+                  <option value="Andijon shahri">Andijon shahri</option>
+                  <option value="Asaka">Asaka tumani</option>
+                  <option value="Shahrixon">Shahrixon tumani</option>
+                  <option value="Farg'ona">Farg'ona viloyati</option>
+                  <option value="Namangan">Namangan viloyati</option>
+                  <option value="Toshkent shahri">Toshkent shahri</option>
+                  <option value="Samarqand">Samarqand</option>
+                  <option value="Boshqa hudud">Boshqa hudud</option>
+                </select>
+              </div>
+              <span class="field-error" id="regionError"></span>
+            </div>
+
+            <!-- Tanlanayotgan Yo'nalish (Robototexnika qo'shilgan) -->
+            <div class="form-group full-width">
+              <label for="courseSelect">Ta'lim yo'nalishi (Darslar narxi: 480 000 — 500 000 UZS / oy) <span class="required">*</span></label>
+              <div class="input-wrapper">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+                <select id="courseSelect" name="course" required>
+                  <option value="">Yo'nalishni tanlang...</option>
+                  <option value="robotics">🤖 Robototexnika, Arduino & IoT (6 oy) — 500 000 UZS / oy</option>
+                  <option value="frontend">💻 Frontend Dasturlash (React, Next.js, JS) (8 oy) — 500 000 UZS / oy</option>
+                  <option value="backend">🐍 Backend Dasturlash (Python, Django, SQL) (9 oy) — 500 000 UZS / oy</option>
+                  <option value="fullstack">🌐 Full-Stack Web Dasturlash (Node.js & React) (10 oy) — 500 000 UZS / oy</option>
+                  <option value="mobile">📱 Mobile Dasturlash (Flutter & Dart) (7 oy) — 500 000 UZS / oy</option>
+                  <option value="ai_ds">🧠 Sun'iy Intellekt & Data Science (9 oy) — 500 000 UZS / oy</option>
+                  <option value="cybersecurity">🛡️ Kiberxavfsizlik & Ethical Hacking (8 oy) — 480 000 UZS / oy</option>
+                  <option value="ui_ux">🎨 UI/UX Dizayn (Figma & Prototyping) (5 oy) — 500 000 UZS / oy</option>
+                </select>
+              </div>
+              <span class="field-error" id="courseError"></span>
+            </div>
+
+            <!-- Ta'lim shakli (Offline / Online) -->
+            <div class="form-group">
+              <label>O'qish shakli <span class="required">*</span></label>
+              <div class="radio-cards">
+                <label class="radio-card">
+                  <input type="radio" name="studyMode" value="Offline (Andijon markazida)" checked>
+                  <div class="radio-box">
+                    <span class="radio-title">🏢 Offline (Andijon filiali)</span>
+                    <span class="radio-desc">Leninskiy ko'chasida jonli darslar</span>
+                  </div>
+                </label>
+                <label class="radio-card">
+                  <input type="radio" name="studyMode" value="Online">
+                  <div class="radio-box">
+                    <span class="radio-title">💻 Online (Masofaviy)</span>
+                    <span class="radio-desc">Zoom + LMS platforma orqali</span>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Dars vaqti -->
+            <div class="form-group">
+              <label>Qulay dars vaqti <span class="required">*</span></label>
+              <div class="radio-cards">
+                <label class="radio-card">
+                  <input type="radio" name="studyShift" value="Ertalab (09:00 - 12:00)" checked>
+                  <div class="radio-box">
+                    <span class="radio-title">🌅 Ertalabki</span>
+                    <span class="radio-desc">09:00 - 12:00</span>
+                  </div>
+                </label>
+                <label class="radio-card">
+                  <input type="radio" name="studyShift" value="Kechki (18:30 - 21:30)">
+                  <div class="radio-box">
+                    <span class="radio-title">🌙 Kechki</span>
+                    <span class="radio-desc">18:30 - 21:30 (ishdan/o'qishdan so'ng)</span>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Boshlang'ich bilim darajasi -->
+            <div class="form-group">
+              <label for="knowledgeLevel">Bilim darajangiz</label>
+              <div class="input-wrapper">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="20" x2="18" y2="10"></line>
+                  <line x1="12" y1="20" x2="12" y2="4"></line>
+                  <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+                <select id="knowledgeLevel" name="knowledgeLevel">
+                  <option value="Noldan (mutlaqo tajribasiz)">Noldan boshlovchi (mutlaqo tajribasiz)</option>
+                  <option value="Boshlang'ich (mustaqil o'rgangan)">Boshlang'ich (mustaqil o'rgangan)</option>
+                  <option value="O'rta (tajribaga ega)">O'rta (boshqa kurslarda qatnashgan)</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Grant imtihoni -->
+            <div class="form-group">
+              <label for="wantGrant">Grant tanlovida ishtirok etasizmi?</label>
+              <div class="input-wrapper">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+                <select id="wantGrant" name="wantGrant">
+                  <option value="Ha, 100% grant imtihonida qatnashaman">Ha, grant imtihonida qatnashaman (Tavsiya etiladi)</option>
+                  <option value="Yo'q, oylik 500 000 UZS to'lov asosida">Yo'q, oylik 500 000 UZS to'lov asosida</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Qo'shimcha izoh -->
+            <div class="form-group full-width">
+              <label for="comments">Qo'shimcha izoh yoki maqsadingiz (ixtiyoriy)</label>
+              <textarea id="comments" name="comments" rows="3" placeholder="Masalan: Andijon Leninskiy filialida Robototexnika yoki Dasturlash o'rganmoqchiman..."></textarea>
+            </div>
+          </div>
+
+          <!-- Rozilik -->
+          <div class="agreement-box">
+            <label class="checkbox-label">
+              <input type="checkbox" id="agreeTerms" required checked>
+              <span>Ma'lumotlarim META IT Andijon qabul komissiyasi tomonidan ko'rib chiqilishiga roziman.</span>
+            </label>
+            <span class="field-error" id="agreeTermsError"></span>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="form-submit-wrapper">
+            <button type="submit" class="btn btn-primary btn-xl submit-btn btn-glow-blue" id="submitAppBtn">
+              <span class="btn-text">Rasmiy Arizani Yuborish (500 000 UZS / oy)</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+            <p class="form-note">🔒 Sizning ma'lumotlaringiz xavfsiz va himoyalangan.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARIZA HOLATINI TEKSHIRISH BO'LIMI -->
+  <section class="section bg-secondary-dark" id="tekshirish">
+    <div class="container">
+      <div class="status-checker-card glass-panel-blue text-center">
+        <span class="section-subtitle google-styled-subtitle">ARIZA STATUSI</span>
+        <h2 class="section-title">Arizangiz Holatini Tekshiring</h2>
+        <p class="section-desc">Topshirgan arizangiz ID raqami yoki telefon raqamingiz orqali holatni real vaqtda bilib oling.</p>
+
+        <div class="checker-search-bar">
+          <input type="text" id="statusSearchInput" placeholder="Masalan: META-2026-7222 yoki 998901234567">
+          <button class="btn btn-primary btn-glow-blue" id="checkStatusBtn">Tekshirish</button>
+        </div>
+
+        <div class="status-result-box hidden" id="statusResultBox">
+          <!-- Status ticket displayed dynamically -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL: KURS HAQIDA BATAFSIL (SYLLABUS & INFO) -->
+  <div class="modal-overlay hidden" id="courseDetailModal">
+    <div class="modal-card course-detail-card">
+      <button class="modal-close-btn" id="closeCourseModal">&times;</button>
+      <div id="courseModalContent">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: ARIZA MUVAFFAQIYATLI TOPSHIRILDI (CHIPTASI) -->
+  <div class="modal-overlay hidden" id="successModal">
+    <div class="modal-card receipt-card">
+      <button class="modal-close-btn" id="closeSuccessModal">&times;</button>
+      <div class="modal-status-icon">
+        <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2.5">
+          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+          <polyline points="22 4 12 14.01 9 11.01"></polyline>
+        </svg>
+      </div>
+      <h3>Arizangiz Muvaffaqiyatli Qabul Qilindi!</h3>
+      <p class="receipt-subtitle">META IT Andijon Qabul komissiyasi arizangizni qabul qildi.</p>
+
+      <div class="receipt-details" id="receiptContent">
+        <!-- Rendered via JS -->
+      </div>
+
+      <div class="modal-actions">
+        <button class="btn btn-outline" onclick="window.print()">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+            <rect x="6" y="14" width="12" height="8"></rect>
+          </svg>
+          <span>Chiptani chop etish</span>
+        </button>
+        <button class="btn btn-primary btn-glow-blue" id="confirmDoneBtn">Tushunarli</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: ADMIN / QABUL KOMISSIYASI PANELI -->
+  <div class="modal-overlay hidden" id="adminModal">
+    <div class="modal-card admin-dashboard-card">
+      <div class="admin-header">
+        <div>
+          <span class="badge-mini">ANDIJON FILIALI</span>
+          <h3>Kelib tushgan arizalar ro'yxati (Admin boshqaruvi)</h3>
+        </div>
+        <button class="modal-close-btn" id="closeAdminModal">&times;</button>
+      </div>
+
+      <div class="admin-stats-row">
+        <div class="admin-stat-box">
+          <span class="as-label">Jami arizalar:</span>
+          <span class="as-value text-white" id="adminTotalApps">0</span>
+        </div>
+        <div class="admin-stat-box">
+          <span class="as-label">Yangi (Kutilmoqda):</span>
+          <span class="as-value text-yellow" id="adminPendingApps">0</span>
+        </div>
+        <div class="admin-stat-box">
+          <span class="as-label">Suhbatga chaqirilgan:</span>
+          <span class="as-value text-cyan" id="adminInterviewApps">0</span>
+        </div>
+        <div class="admin-stat-box">
+          <span class="as-label">Qabul qilingan:</span>
+          <span class="as-value text-green" id="adminApprovedApps">0</span>
+        </div>
+      </div>
+
+      <div class="admin-controls">
+        <input type="text" id="adminSearchInput" placeholder="Ism, telefon yoki ID bo'yicha qidirish...">
+        <button class="btn btn-sm btn-secondary" id="clearAllAppsBtn">Barchasini tozalash</button>
+        <button class="btn btn-sm btn-primary btn-glow-blue" id="loadSampleDataBtn">Namuna ma'lumotlar</button>
+      </div>
+
+      <div class="admin-table-wrapper">
+        <table class="admin-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>F.I.SH</th>
+              <th>Telefon</th>
+              <th>Yo'nalish</th>
+              <th>Format</th>
+              <th>Vaqt</th>
+              <th>Holat</th>
+              <th>Amallar</th>
+            </tr>
+          </thead>
+          <tbody id="adminAppsTableBody">
+            <!-- Table rows -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Quick Telegram Assistant Widget -->
+  <div class="floating-social-widget">
+    <a href="https://t.me/metait_academy" target="_blank" rel="noopener noreferrer" class="floating-tg-btn" title="Telegram orqali savol bering">
+      <div class="tg-pulse-ring"></div>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.52 2.77-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .37z"/>
+      </svg>
+      <span class="floating-tooltip">Andijon filiali &bull; Telegramda yozing</span>
+    </a>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Footer with Active Working Social Links & Andijan Location -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <a href="#" class="brand-logo footer-logo">
+          <div class="video-logo-wrapper mini">
+            <canvas id="footerLogoCanvas" width="36" height="36" class="footer-logo-canvas"></canvas>
+          </div>
+          <div class="logo-text">
+            <div class="brand-name">
+              <span class="brand-blue">META</span>
+              <span class="brand-white">IT</span>
+            </div>
+            <span class="brand-tag">ANDIJON &bull; LENINSKIY</span>
+          </div>
+        </a>
+        <p class="footer-text">
+          Andijon viloyatida zamonaviy IT, Robototexnika va sun'iy intellekt ta'limi bo'yicha yetakchi akademiya. 
+          Oylik to'lov atigi <strong>500 000 UZS</strong> va 100% grant dasturlari mavjud.
+        </p>
+
+        <!-- Fully Active Working Social Icons -->
+        <div class="social-links footer-socials">
+          <a href="https://t.me/metait_academy" target="_blank" rel="noopener noreferrer" class="social-btn telegram" title="Telegram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.52 2.77-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .37z"/>
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/metait.academy" target="_blank" rel="noopener noreferrer" class="social-btn instagram" title="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="https://www.youtube.com/@MetaITAcademy" target="_blank" rel="noopener noreferrer" class="social-btn youtube" title="YouTube">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+              <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/company/meta-it-academy" target="_blank" rel="noopener noreferrer" class="social-btn linkedin" title="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Tezkor Havolalar</h4>
+        <ul>
+          <li><a href="#hero">Bosh sahifa</a></li>
+          <li><a href="#kurslar">Darslar & Narxlar</a></li>
+          <li><a href="#jamoa">Eng kuchli jamoa</a></li>
+          <li><a href="#test">Onlayn IT test</a></li>
+          <li><a href="#video-tour">Video taqdimot</a></li>
+          <li><a href="#lokatsiya">Manzil & Xarita</a></li>
+          <li><a href="#qabul">Ariza topshirish</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Yo'nalishlar (500 000 UZS)</h4>
+        <ul>
+          <li><a href="#kurslar">🤖 Robototexnika & Arduino</a></li>
+          <li><a href="#kurslar">💻 Frontend Dasturlash</a></li>
+          <li><a href="#kurslar">🐍 Backend Dasturlash</a></li>
+          <li><a href="#kurslar">🧠 Sun'iy Intellekt & Data</a></li>
+          <li><a href="#kurslar">🛡️ Kiberxavfsizlik & Hacking</a></li>
+          <li><a href="#kurslar">📱 Mobile (Flutter)</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Andijon Filiali Manzili</h4>
+        <p class="contact-item highlight-cyan font-bold">📍 Andijon viloyati, Andijon shahri, Leninskiy ko'chasi, 12-uy</p>
+        <p class="contact-item">🎯 Mo'ljal: Bobur maydoni yaqinida</p>
+        <p class="contact-item"><a href="tel:+998742203344" class="contact-link">📞 +998 (74) 220-33-44</a></p>
+        <p class="contact-item"><a href="tel:+998901234567" class="contact-link">📱 +998 (90) 123-45-67</a></p>
+        <p class="contact-item"><a href="mailto:andijon@metait.uz" class="contact-link">✉️ andijon@metait.uz</a></p>
+        <p class="contact-item"><a href="https://t.me/metait_academy" target="_blank" rel="noopener noreferrer" class="contact-link">💬 Telegram: @metait_academy</a></p>
+        <p class="contact-item">⏰ Ish vaqti: 08:30 &ndash; 20:30</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 META IT ACADEMY &bull; Andijon viloyati, Leninskiy ko'chasi. Barcha huquqlar himoyalangan.</p>
+        <p class="footer-dev">
+          <span class="g-blue-text">G</span><span class="g-red-text">o</span><span class="g-yellow-text">o</span><span class="g-blue-text">g</span><span class="g-green-text">l</span><span class="g-red-text">e</span> Styled &bull; Ultra-Modern Blue & White
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
